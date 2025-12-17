@@ -4,3 +4,28 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.my-div {
+  width: 1920px !important;
+  height: 100px !important;
+}
+
+.div1 {
+  background-color: rgb(206, 179, 179);
+}
+
+.div2 {
+  background-color: rgb(204, 236, 204);
+}
+
+.div3 {
+  background-color: rgb(188, 188, 232);
+}
+
+.div4 {
+  background-color: #f5e7ce;
+}
+
+.div5 {
+  background-color: rgb(243, 212, 243);
+}
