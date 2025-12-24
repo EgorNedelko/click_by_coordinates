@@ -20,3 +20,10 @@
     coords.style.top = e.clientY + 12 + 'px';
   });
 })();
+
+document.addEventListener('click', (e) => {
+  const box = e.target.closest('.click-box');
+  if (!box) return;
+
+  box.classList.toggle('active');
+});
